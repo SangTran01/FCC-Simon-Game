@@ -1,0 +1,103 @@
+body {
+  background-image: url('http://wallpapercave.com/wp/tmx6W6N.png');
+}
+
+#title, #info {
+  font-weight:bold;
+  font-size: 16px;
+  text-align:center;
+  word-wrap: break-word;
+}
+
+.game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+    box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+}
+
+.active {
+  background: white;
+}
+
+table {
+  border:1px solid white;
+  cellpadding:38;
+}
+
+#roundMsg, #errorMsg, #winMsg {
+  text-align:center;
+}
+
+.light1 {
+  text-align:center;
+  background-color: lightblue;
+  opacity:0.7;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  -webkit-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+  box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+}
+
+.light1:hover {
+  cursor: pointer;
+}
+
+
+
+.light2 {
+  text-align:center;
+  background-color: pink;
+  opacity:0.7;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  -webkit-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+  box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+}
+
+.light2:hover {
+  cursor: pointer;
+}
+
+.light3 {
+  text-align:center;
+  background-color: #b57edc;
+  opacity:0.7;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  -webkit-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+  box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+}
+
+.light3:hover {
+  cursor: pointer;
+}
+
+.light4 {
+  text-align:center;
+  background-color: #ffd500;
+  opacity:0.7;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  -webkit-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+  box-shadow: -2px 4px 95px -9px rgba(0,0,0,0.75);
+}
+
+.light4:hover {
+  cursor: pointer;
+}

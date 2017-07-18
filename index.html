@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div class="game">
+    <table>
+      <tbody>
+        <tr>
+          <td><p id="title">Simon Game</p></td>
+          <td>
+            <div class="lights light2" id="2">
+              <i class="fa fa-arrow-up fa-5x" aria-hidden="true"></i>
+            </div>
+          </td>
+          <td><p id="info">Arrow Keys?</p></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="lights light1" id="1">
+              <i class="fa fa-arrow-left fa-5x" aria-hidden="true"></i>
+            </div>
+          </td>
+          <td>
+            <div class="display">
+              <h3 id="roundMsg">Round <span id="roundNum"></span>/20</h3>
+              <h3 id="errorMsg" class="hidden">!!</h3>
+              <h3 id="winMsg" class="hidden">You Win</h3>
+              <button id="resetBtn">Reset</button>
+              <button id="strictBtn">Strict <span id="strictStatus">Off</span></button>
+            </div>
+          </td>
+          <td>
+            <div class="lights light3" id="3">
+              <i class="fa fa-arrow-right fa-5x" aria-hidden="true"></i>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><p id="info">WASD Keys?</p></td>
+          <td>
+            <div class="lights light4" id="4">
+              <i class="fa fa-arrow-down fa-5x" aria-hidden="true"></i>
+            </div>
+          </td>
+          <td><p id="info">Sang Tran</p></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!--End Game -->
+  <div id="msg"></div>
+</div>
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
